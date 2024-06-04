@@ -1,4 +1,4 @@
-export const defaultPlanId = "pro"
+export const defaultPlanId = "free"
 
 export const pricingPlans = [
   {
