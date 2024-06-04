@@ -19,7 +19,7 @@
       <PricingModule callToAction="Select Plan" />
     </div>
     <div>
-      <a href="/" class="btn btn-primary btn-wide">Go to Dashboard</a>
+      <a href="/account" class="btn btn-primary btn-wide">Go to Dashboard</a>
     </div>
   </div>
 </div>
