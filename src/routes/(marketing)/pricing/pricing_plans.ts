@@ -8,7 +8,6 @@ export const pricingPlans = [
     price: "$0",
     priceIntervalName: "per month",
     stripe_price_id: "price_1PNxqPEAQD7sAy8kxu20B27a",
-    stripe_product_id: "prod_QEQhh92dUWIxYh",
     features: [
       "✔️ Create 5 pages for free",
       "✔️ Personal use",
