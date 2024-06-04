@@ -4,7 +4,7 @@
   // Module context
   export let highlightedPlanId: string = "pro"
   export let callToAction: string
-  export let currentPlanId: string = ""
+  export let currentPlanId: string = "free"
   export let center = true
 
   // type PlanFeatureRow = {
