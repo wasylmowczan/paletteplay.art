@@ -18,7 +18,7 @@ export const load: PageServerLoad = async ({
     throw redirect(303, "/login")
   }
 
-  if (params.slug === "free_plan") {
+  if (params.slug === "free_plan" || "account") {
     // plan with no stripe_price_id. Redirect to account home
     throw redirect(303, "/account")
   }
