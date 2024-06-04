@@ -2,12 +2,12 @@ export const defaultPlanId = "free"
 
 export const pricingPlans = [
   {
-    id: "free",
+    id: "free_plan",
     name: "Free 👶",
     description: "Began crafting engaging coloring pages.",
     price: "$0",
     priceIntervalName: "per month",
-    stripe_price_id: "price_1PNxqPEAQD7sAy8kxu20B27a",
+    stripe_price_id: null,
     features: [
       "✔️ Create 5 pages for free",
       "✔️ Personal use",
