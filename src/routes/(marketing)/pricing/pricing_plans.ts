@@ -2,7 +2,7 @@ export const defaultPlanId = "free"
 
 export const pricingPlans = [
   {
-    id: "free",
+    id: "free_plan",
     name: "Free 👶",
     description: "Began crafting engaging coloring pages.",
     price: "$0",
