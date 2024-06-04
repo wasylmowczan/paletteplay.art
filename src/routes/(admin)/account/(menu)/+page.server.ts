@@ -8,9 +8,9 @@ export const load: PageServerLoad = async ({
 }: {
   locals: { getSession: () => Promise<any>; supabase: any }
 }) => {
-  const session = await getSession()
+  const { session } = await getSession()
   if (!session) {
-    throw redirect(303, "/login")
+    redirect(303, "/login")
   }
 
   const { data: stripe_customer_id } = await supabase
@@ -40,13 +40,13 @@ export const actions = {
     const session = await getSession()
     if (session) {
       await supabase.auth.signOut()
-      throw redirect(303, "/")
+      redirect(303, "/")
     }
   },
   new: async ({ request, locals: { supabase, getSession } }) => {
     const session = await getSession()
     if (!session) {
-      throw redirect(303, "/login")
+      redirect(303, "/login")
     }
 
     const profile = await supabase
