@@ -194,9 +194,7 @@
       </div> -->
       <div class="mt-6 md:mt-2">
         <a href="/login/sign_up">
-          <button class="btn btn-primary btn-sm px-6"
-            >★ Get started for free</button
-          >
+          <button class="btn btn-primary btn-sm px-6">★ Get started</button>
         </a>
         <a href="/login/sign_in">
           <button class="btn btn-outline btn-primary btn-sm px-6 mt-3 mx-2"
