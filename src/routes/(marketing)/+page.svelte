@@ -240,6 +240,14 @@
         width="264"
       />
     </a>
+    <!-- WebCurate Spotlight -->
+    <a href="https://webcurate.co/p/paletteplay-art" target="_blank"
+      ><img
+        src="https://webcurate.co/assets/images/webcurate-featured-badge.svg"
+        alt="PalettePlay.art Featured on WebCurate"
+        style="max-width: 250px; max-height: 54px;"
+      /></a
+    >
   </div>
 </div>
 
