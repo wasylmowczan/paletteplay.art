@@ -77,7 +77,7 @@ export const actions = {
             {
               text:
                 prompt +
-                ", line art outline, friendly, can be used as a coloring sheet, minimalistic, black and white, simple, few details, thin lines, lots of white space",
+                ", line art outline, friendly, can be used as a coloring sheet, minimalistic, black and white, simple, few details, thin lines, lots of white space. Make sure the image is safe for children.",
               weight: 1,
             },
           ],
