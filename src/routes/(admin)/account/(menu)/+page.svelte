@@ -37,11 +37,12 @@
   let percentageFree = (imageNumber / totalImageNumberFree) * 100
   let percentagePro = (imageNumber / totalImageNumberPro) * 100
   let percentageEnterprise = (imageNumber / totalImageNumberEnterprise) * 100
-  // i want to make sure the percentage is not more than 100
   let percentage =
-    data.license === "enterprise"
-      ? totalImageNumberEnterprise
-      : totalImageNumberPro
+    data.license === undefined
+      ? percentageFree
+      : data.license === "pro"
+        ? percentagePro
+        : percentageEnterprise
   // round to 2 decimal places
   percentage = Math.round(percentage * 100) / 100
   // i want to make sure the percentage is not more than 100
@@ -122,9 +123,15 @@
       <div class="stat">
         <div class="stat-title">Page Generated</div>
         <div class="stat-value">
-          {imageNumber} / {data.license === "enterprise"
-            ? totalImageNumberEnterprise
-            : totalImageNumberPro}
+          {#if data.license === undefined}
+            {imageNumber} / {totalImageNumberFree}
+          {:else if data.license === "pro"}
+            {imageNumber} / {totalImageNumberPro}
+          {:else if data.license === "enterprise"}
+            {imageNumber} / {totalImageNumberEnterprise}
+          {:else}
+            {imageNumber} / {totalImageNumberFree}
+          {/if}
         </div>
         <div class="stat-desc justify-center">
           {percentage} % of license used
