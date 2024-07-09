@@ -238,6 +238,7 @@
         src="https://saasaitools.com/storage/2023/12/badge-light.webp"
         alt="SaaS AI Tools"
         width="264"
+        height="54"
       />
     </a>
     <!-- WebCurate Spotlight -->
@@ -256,9 +257,9 @@
       <img
         src="https://cdn.aitoolhub.tech/images/ath_badge.webp"
         alt="Featured Embed | aitoolhub.tech"
-        style="width: 400px; height: 100px;"
-        width="400"
-        height="100"
+        style="width: 250px; height: 54px;"
+        width="250"
+        height="54"
       />
     </a>
   </div>
