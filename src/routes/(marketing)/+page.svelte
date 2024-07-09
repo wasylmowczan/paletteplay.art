@@ -248,6 +248,19 @@
         style="max-width: 250px; max-height: 54px;"
       /></a
     >
+
+    <a
+      href="https://aitoolhub.tech/product/palleteplayart?via=featured_embed"
+      target="_blank"
+    >
+      <img
+        src="https://cdn.aitoolhub.tech/images/ath_badge.webp"
+        alt="Featured Embed | aitoolhub.tech"
+        style="width: 400px; height: 100px;"
+        width="400"
+        height="100"
+      />
+    </a>
   </div>
 </div>
 
