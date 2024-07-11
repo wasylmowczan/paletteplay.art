@@ -224,10 +224,12 @@
         height="54"
       /></a
     >
-    <a href="https://dang.ai/" target="_blank"
+    <a
+      href="https://dang.ai/tool/ai-coloring-pages-generator-paletteplayart"
+      target="_blank"
       ><img
-        src="https://cdn.prod.website-files.com/63d8afd87da01fb58ea3fbcb/6487e2868c6c8f93b4828827_dang-badge.png"
-        alt="Dang.ai"
+        src="https://global-uploads.webflow.com/63d8afd87da01fb58ea3fbcb/6487e2868c6c8f93b4828827_dang-badge.png"
+        alt="PalettePlay | dang.ai"
         style="width: 150px; height: 54px;"
         width="150"
         height="54"
